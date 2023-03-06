@@ -65,7 +65,7 @@ Form
 			IntegerField
 			{
 				name: 			"parallelAnalysisSeed"
-				label: 			"Seed"
+				label: 			qsTr("Seed")
 				defaultValue: 	1234
 				fieldWidth: 	60
 				min: 			1
