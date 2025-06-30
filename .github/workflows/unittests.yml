@@ -12,7 +12,7 @@ jobs:
 
   unit-tests:
 
-    uses: jasp-stats/shun2wang/.github/workflows/unittests.yml@igraph
+    uses: shun2wang/jasp-actions/.github/workflows/unittests.yml@igraph
     with:
       needs_JAGS:   false
       needs_igraph: true
